@@ -4,34 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <script>
-        function game() {
-            // Play 5 rounds
-            // Keep score
-            // Reports a winner or a loser at the end
-        }
-        function computerPlay() { // Randomly return 'Rock', 'Paper' or 'Scissors'
-            const choices = ["Rock", "Paper", "Scissors"];
-            const number = Math.floor(Math.random() * Math.floor(3));
-            return (choices[number]);
-        }
-        function playRound(playerSelection, computerSelection) {
-            // Return a string that declares the winner of the round
-            // for exemple: "You Lose! Paper beats Rock"
-            // the function should be case insensitive
-            //rock=0, paper=1, scissors=2
-            if(playerSelection == computerSelection) ties++;
-                else {
-                        if(playerSelection ==0 && computerSelection ==2) wins++;
-                        else if(playerSelection ==0 && computerSelection ==1) losses++;
-                        else if(playerSelection ==1 && computerSelection ==2) losses++;
-                        else if(playerSelection ==2 && computerSelection ==1) wins++;
-                        else if(playerSelection ==1 && computerSelection ==0) wins++;
-                        else if(playerSelection ==2 && computerSelection ==0) losses++;
-                }
-        }   
-    </script>
+    
 </body>
 </html>
